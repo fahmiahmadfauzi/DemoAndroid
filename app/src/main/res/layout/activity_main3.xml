@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f4f4"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nama Panggilan Kamu"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contoh : Budi" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Umur Kamu"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contoh : 12" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom">
+
+        <Button
+            android:id="@+id/btnLanjut"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/bg_btn"
+            android:text="Selanjutnya"
+
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
